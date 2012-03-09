@@ -1,0 +1,18 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# binary folders
+MazeGame-Desktop/bin
+MazeGame/bin
+
+# git metadata
+.metadata
+
+# backup files
+*~
