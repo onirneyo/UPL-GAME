@@ -9,11 +9,12 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class Game implements ApplicationListener {
 	private SpriteBatch batch;
-	private Texture texture;
+	
 	@Override
 	public void create() {
 		// TODO Auto-generated method stub
 		batch = new SpriteBatch();
+		GameObject test = new GameObject();
 	}
 
 	@Override
@@ -24,11 +25,8 @@ public class Game implements ApplicationListener {
 
 	@Override
 	public void render() {
-
-		texture = new Texture(Gdx.files.internal("uplogo.jpg"));
-		batch.begin();
-		batch.draw(texture, 10, 10);
-		batch.end();
+	//	test.setVelocity(1,0);
+		//test.update();
 		
 	  
 	}
